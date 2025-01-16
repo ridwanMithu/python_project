@@ -4,7 +4,7 @@ from get_user_choice import get_user_choice
 from display_choices import display_choice
 
 emojis={'r':'💎','p':'📃','s':'✂️'}
-choices=('r','p','s')
+choices=tuple(emojis.keys)
 
 def play_game():
   while True:
